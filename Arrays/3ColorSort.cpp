@@ -1,4 +1,4 @@
-// 2 Pass-algorithm
+// 2 Pass-algorithm -> Counting sort
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -16,7 +16,7 @@ public:
     }
 };
 
-// 1 Pass approach
+// 1 Pass approach -> quick sort 
 /*
 1 0 2 2 1 0
     ^         ^
