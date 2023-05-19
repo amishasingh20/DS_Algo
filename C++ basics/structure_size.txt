@@ -1,0 +1,1 @@
+Structure size: https://iq.opengenus.org/size-of-struct-in-c/#:~:text=It%20aligns%20till%20the%20boundary,total%20size%20is%2032%20Bytes.
