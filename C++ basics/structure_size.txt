@@ -1,1 +1,5 @@
 Structure size: https://iq.opengenus.org/size-of-struct-in-c/#:~:text=It%20aligns%20till%20the%20boundary,total%20size%20is%2032%20Bytes.
+Processor doesn't read 1byte at a time from memory.It reads 1 word at a time.
+Structure padding is used to save number of CPU cycles.
+Pointer size can vary(most commonly 4 bytes for 32bit processor)
+We can avoid the wastage of memory by simply writing #pragma pack(1) -> size of struct is same as sum of size of members
